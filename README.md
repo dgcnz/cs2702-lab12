@@ -2,6 +2,8 @@
 
 ## P1. PARTITION BY LIST
 
+Script: `p1.sql`
+
 Default:
 
 | Employees           | 50    | 80    | 100   |
@@ -18,6 +20,8 @@ With list partition:
 | Execution time (ms) | 0.111 | 0.121 | 0.110 |
 
 ## P2. PARTITION BY RANGE
+
+Script: `p2.sql`
 
 Query 1:
 
@@ -47,3 +51,10 @@ SELECT * FROM employees2 WHERE hire_date >= '2000-05-03'::date;
 |---------------------|-------|-------|-------|
 | Planning time (ms)  | 0.755 | 0.797 | 0.500 |
 | Execution time (ms) | 0.295 | 0.274 | 0.132 |
+
+
+## P3. Two Attributes
+
+Script doesn't work quite well.
+
+Script: `p3.sql`
