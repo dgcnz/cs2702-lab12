@@ -58,3 +58,9 @@ SELECT * FROM employees2 WHERE hire_date >= '2000-05-03'::date;
 Script doesn't work quite well.
 
 Script: `p3.sql`
+
+
+## Students
+
+- Andrea Díaz - 201720031
+- Diego Cánez - 201710319
